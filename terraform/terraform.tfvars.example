@@ -1,0 +1,11 @@
+# Copy this file to terraform.tfvars and fill in your values
+# NEVER commit terraform.tfvars with real secrets!
+
+cloudflare_api_token    = "your-api-token-here"
+cloudflare_account_id   = "abc123def456"
+tunnel_id               = "12345678-1234-1234-1234-123456789012"
+tunnel_secret_base64    = "base64-encoded-credentials-json-here"
+tunnel_cert_base64      = "base64-encoded-cert-pem-here"
+service_cidr            = "10.245.0.0/16"  # DigitalOcean example
+coredns_ip              = "10.245.0.10"
+private_domain_suffix   = "cluster.local"
